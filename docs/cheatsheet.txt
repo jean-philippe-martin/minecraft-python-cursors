@@ -1,0 +1,33 @@
+Minecraft Python Cursors Cheatsheet
+
+1. Get a cursor
+
+c = cursor_here()
+put_here(block=nether_brick)
+c = cursor_nearby(block=nether_brick)
+
+2. Adjust the cursor
+
+blink(c)
+
+c = c.move(south, up, east)
+c = c.square(side)
+c = c.rectangle(width, depth)
+c = c.circle(radius)
+c = c.grow(extra_width, extra_depth)
+c = c.shrink(remove_width, remove_depth)
+c = c.center()
+c = c.side(point_width, point_depth)
+c = c.corners()
+
+3.a. Draw with the cursor
+
+trace(c, block=stone_brick, height=5, stride=2)
+fill(c, block=glowstone, height=1)
+fill_except(c1, c1_height=5, c2, c2_height=2, block=gold)
+
+3.b. Copy/Paste with the cursor
+
+stamp = c.copy(height=4)
+stamp.move(south, up, east)
+stamp.paste()
