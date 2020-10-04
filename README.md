@@ -27,6 +27,8 @@ blink(door)
 trace(door, block=air, height=3)
 ```
 
+![sample hut](examples/sample_hut.png)
+
 # Features
 
 * No more guessing coordinates: use the "blink" feature to show in the world where you're about to draw.
@@ -44,7 +46,7 @@ Prerequisites:
 
 Start the server, start a Minecraft client and connect to your server.
 
-Once you've checked that you can run Python and use mcpi to connect to your Python server and put down some blocks, download python-minecraft-cursors (just "cursors" from here on). Put it in some folder and start Minecraft from there.
+Once you've checked that you can run Python and use mcpi to connect to your Python server and put down some blocks, download python-minecraft-cursors. Put it in some folder and start Python from there.
 
 Use the following commands to load everything (replace 192.168.1.1 with your server's address).
 
@@ -62,4 +64,7 @@ You can check that you're all set up by running this command:
 cursor_here()
 ```
 
-If it returns without error, you're all set! Get your imagination in gear and start building cool things!
+If it returns without error, you're all set! Go build!
+
+You can find a few examples in the [examples/](examples/) folder.
+
