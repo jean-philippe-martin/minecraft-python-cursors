@@ -29,6 +29,8 @@ trace(door, block=air, height=3)
 
 ![sample hut](examples/sample_hut.png)
 
+![sample hut video](gifs/demo_hut.gif)
+
 # Features
 
 * No more guessing coordinates: use the "blink" feature to show in the world where you're about to draw.
