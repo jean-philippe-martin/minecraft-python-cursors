@@ -1,5 +1,5 @@
 def diving_board(height=10, depth=5):
-  """Draw diving board, as tall as you dare."""
+  """Draw a diving board, as tall as you dare."""
   c = cursor_here()
   # Tall colums, with ladder
   trace(c.move(0,0,1), block=wood_oak, height=10)

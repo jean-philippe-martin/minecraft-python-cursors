@@ -1,4 +1,5 @@
 def make_hut_here(side=7):
+    """The hut from the README."""
     # Make a square cursor around you.
     c = cursor_here().square(side)
     # Draw walls.
